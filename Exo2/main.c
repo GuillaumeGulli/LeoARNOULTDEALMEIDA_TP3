@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 int main() {
-	unsigned int n = 2868838400 , test;
+	unsigned int n = 2868838400;
 	int bit, i, octet;
 	octet = sizeof(n);
 	bit = octet * 8;
@@ -17,5 +17,6 @@ int main() {
 			printf("%d: OFF\n", i);
 		}
 	}
+	printf(" Bye ! ");
 	system("pause");
 }
